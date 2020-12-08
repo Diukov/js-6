@@ -40,8 +40,6 @@ const checkData = (property) => {
       return property;
     case 'boolean':
       return +property;
-    case 'undefined':
-      return undefined;
     default:
       return null;
   }
